@@ -3,7 +3,7 @@ var PlayerModel = Backbone.Model.extend({
 });
 
 var QuarterbackModel = PlayerModel.extend({
-  urlRoot: 'http://www.fantasyfootballnerd.com/service/draft-projections/json/' + apikey + '/QB'
+  urlRoot: 'http://www.fantasyfootballnerd.com/service/draft-projections/json/' + apikey + '/QB',
 });
 
 var RunningbackModel = PlayerModel.extend({
